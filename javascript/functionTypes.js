@@ -38,3 +38,21 @@
 // if(!number){
 //     document.write("behtareeen");
 // }
+
+
+function Student(stName = "Rohail", age = 20, city = "Lahore", country= "Pakisatn"){
+
+    document.write("Student name is " +stName+ "<br>" );
+
+    // document.write("Student name is stName <br>");
+    document.write("Student age is  "+ age+ "<br>");
+    document.write("Student city is  "+ city+" <br>");
+    document.write("Student countrt is  "+ country+ "<br>");
+
+
+}
+
+Student("Ali" , 20 , "Karachi" , "Pakistan");
+
+document.write("----------------------------------------<br>");
+Student();
